@@ -58,7 +58,7 @@ bool getMessage(uint8_t *messageBuffPtr) {
     // Clear the read buffer.
   }
 
-  SerialMsg.write('U');
+  SerialMsg.write('?');
 
 #ifdef SERIAL_DEBUG_MESSAGE
   DEBUG_SERIAL.println("? sent...");
