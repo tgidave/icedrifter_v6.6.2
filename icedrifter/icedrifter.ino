@@ -289,7 +289,7 @@ void loop() {
   digitalWrite(MS5837_DS18B20_GPS_POWER_PIN, HIGH);
   delay(1000);
 
-#define DEBUG_SERIAL_SCOPE
+//#define DEBUG_SERIAL_SCOPE
 
 #ifdef DEBUG_SERIAL_SCOPE
   while (1) {
