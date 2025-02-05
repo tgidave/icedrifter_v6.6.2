@@ -1,8 +1,7 @@
 
 #include <time.h>
 #include <TinyGPS++.h>  // NMEA parsing: http://arduiniana.org
-#include <PString.h>    // String buffer formatting: http://arduiniana.org
-
+#include <bosejis_PString.h> // String buffer formatting: http://arduiniana.org
 #include "icedrifter.h"
 #include "gps.h"
 
